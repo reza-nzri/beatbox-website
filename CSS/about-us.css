@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, 'Roboto', Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.S-about {
+    padding: 50px;
+    text-align: center;
+    background-color: #fdb81d;
+    color: white;
+}
+
+.S-about h1 {
+    font-size: 37px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.S-about p {
+    font-size: 18px;
+}
+
+
+/* Our Team section */
+.ourTeam-h2 {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    font-size: 28px;
+}
+
+.ourTeam {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.row {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.Info::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column h2:hover {
+    color: #fdb81d;
+    transition: 0.3s;
+}
+
+.card {
+    box-shadow: rgb(0 0 0 / 20%) 0px 4px 8px 3px;
+    margin: 6px;
+}
+
+.card:hover {
+    box-shadow: rgb(0 0 0 / 40%) 0px 4px 8px 3px;
+}
+
+.img1 {
+    width: 55%;
+}
+
+.img2 {
+    width: 60%;
+}
+
+.bk-img {
+    width: 100%;
+}
+
+.Info {
+    padding: 0 16px;
+}
+
+.Info h2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.info-text {
+    padding-top: 8px;
+    padding-bottom: 18px;
+    font-size: 16px;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px;
+    background-color: #333;
+    width: 100%;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button a:hover {
+    color: #fdb81d;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        width: 40%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .column {
+        width: 50%;
+        display: block;
+    }
+
+    .column h2 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+
+    .column h2 {
+        font-size: 15px;
+    }
+}
+
+/* end of our Team */
+
+.About-Bx, .Sources, .contact-us {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    line-height: 30px;
+}
+
+.About-Bx h2, .Sources h2, .contact-us {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Sources a:hover {
+    color: #fdb81d;
+}
+
+.Src-text, .Src-idea, .Src-Copr {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    line-height: 30px;
+}
+
+.RZ-link {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-us {
+    padding-bottom: 50px;
+
+}
+
+.contact-us a:hover {
+    color: #fdb81d;
+}
