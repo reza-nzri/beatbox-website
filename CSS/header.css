@@ -1,0 +1,48 @@
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    z-index: 3;
+}
+
+header a {
+    position: relative;
+    color: white;
+    top: -25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px;
+}
+
+header a:hover {
+    color: #f9bf1d;
+    border-radius: 25px;
+    background-color: rgb(39, 39, 39);
+}
+
+header img {
+    padding: 5px;
+    max-width: 160px;
+    min-height: 48px;
+}
+
+.logo {
+    top: unset;
+}
+
+.logo:hover {
+    background-color: unset;
+}
+
+.login {
+    border-radius: 15px;
+    background-color: #99cc33;
+}
+
+.login:hover {
+    color: white;
+    background-color: #8bbd26;
+}
